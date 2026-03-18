@@ -5,104 +5,104 @@ const frFaq = [
   {
     question: "Qu'est-ce que Life Story AI ?",
     answer:
-      "Life Story AI est une application qui utilise l'intelligence artificielle pour vous aider Ã  Ã©crire votre autobiographie ou la biographie d'un parent.",
+      "Life Story AI est une application qui utilise l'intelligence artificielle pour vous aider à écrire votre autobiographie ou la biographie d'un parent.",
   },
   {
-    question: "Qu'est-ce que j'achÃ¨te au final ?",
+    question: "Qu'est-ce que j'achète au final ?",
     answer:
-      "Le produit final est un vrai livre pouvant contenir jusqu'Ã  250 pages, imprimÃ© et envoyÃ© par courrier. Vous pouvez choisir le style de votre biographie, personnaliser la couverture et Ã©diter ou supprimer des chapitres Ã  votre guise. Sur l'offre DÃ©couverte, vous achetez uniquement la version numÃ©rique.",
+      "Le produit final est un vrai livre pouvant contenir jusqu'à 250 pages, imprimé et envoyé par courrier. Vous pouvez choisir le style de votre biographie, personnaliser la couverture et éditer ou supprimer des chapitres à votre guise. Sur l'offre Découverte, vous achetez uniquement la version numérique.",
   },
   {
     question: 'Qui est Lisa ?',
     answer:
-      "Lisa est l'intelligence artificielle qui joue le rÃ´le de biographe personnel. Elle transcrit votre voix en texte, formate votre histoire et peut vous guider avec des questions si vous manquez d'inspiration.",
+      "Lisa est l'intelligence artificielle qui joue le rôle de biographe personnel. Elle transcrit votre voix en texte, formate votre histoire et peut vous guider avec des questions si vous manquez d'inspiration.",
   },
   {
-    question: "Puis-je Ã©crire une biographie pour quelqu'un d'autre, comme ma mÃ¨re ou ma grand-mÃ¨re ?",
-    answer: "Oui, vous devenez alors l'interviewer. Vous utilisez notre app en prÃ©sence de votre parent.",
+    question: "Puis-je écrire une biographie pour quelqu'un d'autre, comme ma mère ou ma grand-mère ?",
+    answer: "Oui, vous devenez alors l'interviewer. Vous utilisez notre app en présence de votre parent.",
   },
   {
-    question: "Combien de personnes peuvent participer Ã  la rÃ©daction d'un livre ?",
-    answer: "Cela dÃ©pend de votre offre : solo sur l'offre DÃ©couverte, duo sur l'offre Auteur, jusqu'Ã  10 participants sur l'offre Famille.",
+    question: "Combien de personnes peuvent participer à la rédaction d'un livre ?",
+    answer: "Cela dépend de votre offre : solo sur l'offre Découverte, duo sur l'offre Auteur, jusqu'à 10 participants sur l'offre Famille.",
   },
   {
-    question: 'Combien de temps faut-il pour Ã©crire un livre complet ?',
+    question: 'Combien de temps faut-il pour écrire un livre complet ?',
     answer:
-      "GÃ©nÃ©ralement, il faut entre 10 et 20 heures d'enregistrement pour Ã©crire le livre. Cela reprÃ©sente entre 3 et 6 aprÃ¨s-midis par exemple.",
+      "Généralement, il faut entre 10 et 20 heures d'enregistrement pour écrire le livre. Cela représente entre 3 et 6 après-midis par exemple.",
   },
   {
-    question: "Puis-je offrir Life Story Ã  quelqu'un ?",
+    question: "Puis-je offrir Life Story à quelqu'un ?",
     answer:
-      "Oui. AprÃ¨s l'achat, vous pouvez imprimer la carte cadeau et l'offrir. Elle contient un code d'activation.",
+      "Oui. Après l'achat, vous pouvez imprimer la carte cadeau et l'offrir. Elle contient un code d'activation.",
   },
   {
-    question: 'Puis-je commander des livres supplÃ©mentaires ?',
+    question: 'Puis-je commander des livres supplémentaires ?',
     answer:
-      "Oui. Si vous Ãªtes satisfait de la premiÃ¨re copie, vous pouvez en commander d'autres au tarif correspondant Ã  votre offre.",
+      "Oui. Si vous êtes satisfait de la première copie, vous pouvez en commander d'autres au tarif correspondant à votre offre.",
   },
   {
-    question: 'Puis-je Ã©crire mes propres textes ou histoires ?',
+    question: 'Puis-je écrire mes propres textes ou histoires ?',
     answer: "Oui, les conseils et questions de Lisa sont optionnels ; vous pouvez raconter l'histoire de votre choix.",
   },
   {
     question: 'Y a-t-il une limite de questions ?',
-    answer: 'Non, vous pouvez rÃ©pondre Ã  autant de questions que vous le souhaitez.',
+    answer: 'Non, vous pouvez répondre à autant de questions que vous le souhaitez.',
   },
   {
     question: 'Y a-t-il une limite de pages pour le livre ?',
-    answer: 'Oui, le livre est limitÃ© Ã  un maximum de 250 pages.',
+    answer: 'Oui, le livre est limité à un maximum de 250 pages.',
   },
   {
-    question: "Puis-je rÃ©pondre Ã  plus d'une question par semaine ?",
-    answer: 'Oui, vous pouvez rÃ©pondre Ã  autant de questions par semaine que vous le souhaitez.',
+    question: "Puis-je répondre à plus d'une question par semaine ?",
+    answer: 'Oui, vous pouvez répondre à autant de questions par semaine que vous le souhaitez.',
   },
   {
     question: 'Y a-t-il une limite sur le nombre de photos ?',
     answer: 'Non.',
   },
   {
-    question: 'Les photos seront-elles imprimÃ©es en couleur ?',
+    question: 'Les photos seront-elles imprimées en couleur ?',
     answer: 'Oui.',
   },
   {
     question: 'Avez-vous un support client ?',
-    answer: 'Oui, si vous avez un problÃ¨me, vous pouvez nous contacter par e-mail ou chat.',
+    answer: 'Oui, si vous avez un problème, vous pouvez nous contacter par e-mail ou chat.',
   },
   {
     question: 'Quelle est votre politique de retour ?',
     answer:
-      "Si vous n'Ãªtes pas satisfait de votre achat, remplissez simplement un formulaire de demande de remboursement dans les 30 jours aprÃ¨s l'achat. Vous serez alors intÃ©gralement remboursÃ©. Nous ne pouvons pas vous rembourser si le livre a dÃ©jÃ  Ã©tÃ© imprimÃ©. En cas de cadeau, seul l'acheteur peut faire la demande et Ãªtre remboursÃ©.",
+      "Si vous n'êtes pas satisfait de votre achat, remplissez simplement un formulaire de demande de remboursement dans les 30 jours après l'achat. Vous serez alors intégralement remboursé. Nous ne pouvons pas vous rembourser si le livre a déjà été imprimé. En cas de cadeau, seul l'acheteur peut faire la demande et être remboursé.",
   },
   {
-    question: 'Quel est le format du livre imprimÃ© ?',
+    question: 'Quel est le format du livre imprimé ?',
     answer: 'Le livre est au format A5 : 14,85 x 21 cm (ou 5.8 x 8.3 inches).',
   },
   {
-    question: 'OÃ¹ livrez-vous ?',
+    question: 'Où livrez-vous ?',
     answer: 'Nous livrons partout dans le monde.',
   },
   {
-    question: 'OÃ¹ sont imprimÃ©s les livres ?',
+    question: 'Où sont imprimés les livres ?',
     answer:
-      "GrÃ¢ce Ã  notre partenaire disposant d'un rÃ©seau d'imprimeurs, les livres sont imprimÃ©s et envoyÃ©s depuis l'AmÃ©rique du Nord, l'Europe, l'Australie ou l'Inde, selon l'endroit oÃ¹ vous habitez.",
+      "Grâce à notre partenaire disposant d'un réseau d'imprimeurs, les livres sont imprimés et envoyés depuis l'Amérique du Nord, l'Europe, l'Australie ou l'Inde, selon l'endroit où vous habitez.",
   },
   {
-    question: 'Puis-je obtenir une version numÃ©rique de mon livre ?',
-    answer: 'Oui, vous pouvez exporter une version PDF, ePub et texte de votre livre Ã  tout moment.',
+    question: 'Puis-je obtenir une version numérique de mon livre ?',
+    answer: 'Oui, vous pouvez exporter une version PDF, ePub et texte de votre livre à tout moment.',
   },
 ] as const;
 
 export const frContent: LandingPageContent = {
   locale: 'fr',
   meta: {
-    title: 'Life Story AI â€“ Histoires de famille et autobiographie avec votre biographe IA',
+    title: 'Life Story AI – Histoires de famille et autobiographie avec votre biographe IA',
     description:
-      "Chaque famille a une histoire qui mÃ©rite d'Ãªtre prÃ©servÃ©e. Capturez les souvenirs d'un parent, racontez l'histoire des grands-parents, ou Ã©crivez la vÃ´tre. RÃ©pondez simplement Ã  des questions par voix ou par texte, invitez vos proches Ã  participer, et recevez votre livre imprimÃ© en quelques semaines.",
+      "Chaque famille a une histoire qui mérite d'être préservée. Capturez les souvenirs d'un parent, racontez l'histoire des grands-parents, ou écrivez la vôtre. Répondez simplement à des questions par voix ou par texte, invitez vos proches à participer, et recevez votre livre imprimé en quelques semaines.",
   },
   nav: {
     links: [
       { label: 'Exemples', href: '#examples' },
-      { label: 'FonctionnalitÃ©s', href: '#feature' },
+      { label: 'Fonctionnalités', href: '#feature' },
       { label: 'Prix', href: '#new-pricing' },
     ],
     authCtas: [
@@ -115,9 +115,9 @@ export const frContent: LandingPageContent = {
   },
   hero: {
     titleHtml:
-      "PrÃ©servez les histoires qui comptent dans un beau livre â€” <span class='highlight'>Ã©crit avec vos proches</span>, guidÃ© par l'IA âœ¨",
+      "Préservez les histoires qui comptent dans un beau livre — <span class='highlight'>écrit avec vos proches</span>, guidé par l'IA ✨",
     description:
-      "Chaque famille a une histoire qui mÃ©rite d'Ãªtre prÃ©servÃ©e. Capturez les souvenirs d'un parent, racontez l'histoire des grands-parents, ou Ã©crivez la vÃ´tre. RÃ©pondez simplement Ã  des questions par voix ou par texte, invitez vos proches Ã  participer, et recevez votre livre imprimÃ© en quelques semaines.",
+      "Chaque famille a une histoire qui mérite d'être préservée. Capturez les souvenirs d'un parent, racontez l'histoire des grands-parents, ou écrivez la vôtre. Répondez simplement à des questions par voix ou par texte, invitez vos proches à participer, et recevez votre livre imprimé en quelques semaines.",
     cta: { label: 'Acheter', href: 'https://app.life-story.ai/registrations/new?locale=fr', primary: true },
     info: 'Carte cadeau imprimable incluse',
     image: 'heroFamilyBook',
@@ -130,172 +130,172 @@ export const frContent: LandingPageContent = {
       {
         rating: '5 / 5',
         quote:
-          "J'ai essayÃ© Life Story avec mon parent et c'est gÃ©nial. C'est super simple. Je recommande dÃ©finitivement Lisa si vous voulez capturer vos histoires de famille d'une maniÃ¨re amusante et facile.",
+          "J'ai essayé Life Story avec mon parent et c'est génial. C'est super simple. Je recommande définitivement Lisa si vous voulez capturer vos histoires de famille d'une manière amusante et facile.",
         author: "Lire le commentaire d'Octave",
         href: 'https://trstp.lt/0BDHfaJ6n',
       },
       {
         rating: '5 / 5',
         quote:
-          "Utiliser Life Story a Ã©tÃ© une expÃ©rience dÃ©licieuse, qui a permis de rapprocher notre famille grÃ¢ce aux prÃ©cieux souvenirs de grand-pÃ¨re. Je le recommande vivement Ã  toute famille dÃ©sireuse de prÃ©server son histoire d'une maniÃ¨re aussi spÃ©ciale.",
+          "Utiliser Life Story a été une expérience délicieuse, qui a permis de rapprocher notre famille grâce aux précieux souvenirs de grand-père. Je le recommande vivement à toute famille désireuse de préserver son histoire d'une manière aussi spéciale.",
         author: 'Lire le commentaire de Julia',
         href: 'https://trstp.lt/afQ_D20hB',
       },
       {
         rating: '4.5 / 5',
         quote:
-          "Jâ€™ai offert Life Story Ã  ma maman pour son anniversaire, pour laisser une trace de notre famille en Italie et en France et pour que mon petit LÃ©o puisse lui aussi se souvenir de sa famille et surtout des petites anecdotes. Elle a adorÃ© ce cadeau.",
+          "J'ai offert Life Story à ma maman pour son anniversaire, pour laisser une trace de notre famille en Italie et en France et pour que mon petit Léo puisse lui aussi se souvenir de sa famille et surtout des petites anecdotes. Elle a adoré ce cadeau.",
         author: 'Laure F.',
       },
     ],
   },
   roles: {
-    titleHtml: "Ã‰crivez l'histoire <span class='highlight'>ensemble</span>",
+    titleHtml: "Écrivez l'histoire <span class='highlight'>ensemble</span>",
     description:
-      'Invitez vos proches Ã  participer au livre, avec diffÃ©rents rÃ´les : Ã©crire ensemble, poser des questions, ou recevoir chaque histoire au moment oÃ¹ elle est partagÃ©e.',
+      'Invitez vos proches à participer au livre, avec différents rôles : écrire ensemble, poser des questions, ou recevoir chaque histoire au moment où elle est partagée.',
     items: [
       {
         title: 'Auteur principal',
         description:
-          "Raconte l'histoire et peut inviter d'autres personnes Ã  participer. Il peut Ã©galement s'agir de la personne qui a offert l'Histoire de vie en cadeau et qui ajoute le ou les destinataires du cadeau en tant que co-auteurs.",
+          "Raconte l'histoire et peut inviter d'autres personnes à participer. Il peut également s'agir de la personne qui a offert l'Histoire de vie en cadeau et qui ajoute le ou les destinataires du cadeau en tant que co-auteurs.",
         image: 'roleMainAuthor',
         alt: 'Illustration auteur principal',
       },
       {
         title: 'Co-auteur(s)',
         description:
-          "Une ou plusieurs personnes qui aident l'auteur principal Ã  Ã©crire. Peuvent ajouter ou modifier une histoire. Ont le mÃªme niveau d'accÃ¨s que l'auteur principal.",
+          "Une ou plusieurs personnes qui aident l'auteur principal à écrire. Peuvent ajouter ou modifier une histoire. Ont le même niveau d'accès que l'auteur principal.",
         image: 'roleCoauthor',
         alt: 'Illustration co-auteurs',
       },
       {
         title: 'Intervieweur(s)',
         description:
-          "Peuvent poser des questions Ã  l'auteur du livre, qui peut ensuite y rÃ©pondre en crÃ©ant une histoire. Exemple : Â« Pourquoi avez-vous dÃ©mÃ©nagÃ© en France aprÃ¨s vos Ã©tudes ? Â» Ils n'ont pas accÃ¨s aux histoires.",
+          "Peuvent poser des questions à l'auteur du livre, qui peut ensuite y répondre en créant une histoire. Exemple : « Pourquoi avez-vous déménagé en France après vos études ? » Ils n'ont pas accès aux histoires.",
         image: 'roleInterviewer',
         alt: 'Illustration intervieweurs',
       },
       {
-        title: 'AbonnÃ©(s) (bientÃ´t)',
+        title: 'Abonné(s) (bientôt)',
         description:
-          "Une ou plusieurs personnes qui reÃ§oivent chaque semaine les histoires du livre. Elles dÃ©couvrent chaque nouvelle histoire au moment oÃ¹ elle est partagÃ©e et vivent le rÃ©cit familial au fil de sa crÃ©ation.",
+          "Une ou plusieurs personnes qui reçoivent chaque semaine les histoires du livre. Elles découvrent chaque nouvelle histoire au moment où elle est partagée et vivent le récit familial au fil de sa création.",
         image: 'roleSubscriber',
-        alt: 'Illustration abonnÃ©s',
+        alt: 'Illustration abonnés',
       },
     ],
   },
   assistantFeatures: {
     titleHtml: "Laissez-vous guider par Lisa, votre <span class='highlight'>biographe personnelle</span>",
-    description: "Votre parent n'a qu'Ã  rÃ©pondre aux questions de notre intelligence artificielle.",
+    description: "Votre parent n'a qu'à répondre aux questions de notre intelligence artificielle.",
     items: [
       {
         icon: 'clipboard',
-        title: 'Il suffit de rÃ©pondre aux questions',
+        title: 'Il suffit de répondre aux questions',
         description:
-          'Par exemple : Â« OÃ¹ avez-vous grandi ? Â», Â« Combien de frÃ¨res et sÅ“urs avez-vous ? Â», Â« Comment Ã©tait votre maison dâ€™enfance ? Â», Â« Quel Ã©tait le mÃ©tier de vos parents ? Â»',
+          "Par exemple : « Où avez-vous grandi ? », « Combien de frères et sœurs avez-vous ? », « Comment était votre maison d'enfance ? », « Quel était le métier de vos parents ? »",
       },
       {
         icon: 'profile',
-        title: 'Des questions personnalisÃ©es',
+        title: 'Des questions personnalisées',
         description:
-          'Lisa pose des questions pertinentes liÃ©es aux prÃ©cÃ©dentes rÃ©ponses de votre parent. Par exemple : Â« En tant quâ€™enfant unique, comment vous amusiez-vous ? Â»',
+          "Lisa pose des questions pertinentes liées aux précédentes réponses de votre parent. Par exemple : « En tant qu'enfant unique, comment vous amusiez-vous ? »",
       },
       {
         icon: 'list',
-        title: "PossibilitÃ© de choisir les questions ou d'en ajouter vous-mÃªme",
+        title: "Possibilité de choisir les questions ou d'en ajouter vous-même",
         description:
-          'Votre parent a toujours le choix entre plusieurs questions. Il peut rÃ©pondre Ã  certaines et pas Ã  dâ€™autres. Vous pouvez crÃ©er vos propres questions, sans limites.',
+          "Votre parent a toujours le choix entre plusieurs questions. Il peut répondre à certaines et pas à d'autres. Vous pouvez créer vos propres questions, sans limites.",
       },
       {
         icon: 'spark',
-        title: "L'Ã©coute active qui fait avancer votre rÃ©cit",
+        title: "L'écoute active qui fait avancer votre récit",
         description:
-          'Quand vous Ãªtes bloquÃ© ou ne savez plus quoi Ã©crire, Lisa vous Ã©coute activement et pose des questions de relance rÃ©flÃ©chies pour vous aider Ã  creuser plus profondÃ©ment dans vos souvenirs.',
+          'Quand vous êtes bloqué ou ne savez plus quoi écrire, Lisa vous écoute activement et pose des questions de relance réfléchies pour vous aider à creuser plus profondément dans vos souvenirs.',
       },
       {
         icon: 'collaboration',
         title: 'Mode Intervieweur ou en autonomie',
         description:
-          "Vous Ãªtes avec votre parent et manipulez l'application Ã  sa place. Ou bien vous lui montrez une fois comment faire et il utilise l'app de faÃ§on autonome ensuite.",
+          "Vous êtes avec votre parent et manipulez l'application à sa place. Ou bien vous lui montrez une fois comment faire et il utilise l'app de façon autonome ensuite.",
       },
     ],
-    checks: ['Questions personnalisÃ©es', 'RÃ©ponses faciles et rapides', "Pas besoin d'Ãªtre Victor Hugo"],
+    checks: ['Questions personnalisées', 'Réponses faciles et rapides', "Pas besoin d'être Victor Hugo"],
     image: 'lisaBrowser',
-    alt: 'Capture de lâ€™application Life Story AI',
+    alt: "Capture de l'application Life Story AI",
   },
   bookTypes: {
-    title: 'CrÃ©ez un livre unique, comme votre histoire',
-    description: 'Voici des exemples de livres que vous pouvez crÃ©er, seul ou Ã  plusieurs :',
+    title: 'Créez un livre unique, comme votre histoire',
+    description: 'Voici des exemples de livres que vous pouvez créer, seul ou à plusieurs :',
     items: [
       {
         title: 'Histoire de Vie',
         description:
-          'Racontez votre histoire dans un livre, Ã  votre faÃ§on et Ã  votre rythme. Par ordre chronologique, thÃ©matique ou de faÃ§on complÃ¨tement libre.',
+          'Racontez votre histoire dans un livre, à votre façon et à votre rythme. Par ordre chronologique, thématique ou de façon complètement libre.',
         image: 'bookLifeStory',
         alt: 'Exemple de livre histoire de vie',
       },
       {
         title: 'Histoire Familiale',
         description:
-          "Racontez seul ou Ã  plusieurs l'histoire de la famille dans un beau livre. Ajoutez des photos et chacun peut commander son exemplaire.",
+          "Racontez seul ou à plusieurs l'histoire de la famille dans un beau livre. Ajoutez des photos et chacun peut commander son exemplaire.",
         image: 'bookFamilyHistory',
         alt: 'Exemple de livre histoire familiale',
       },
       {
         title: 'Livre de Naissance',
         description:
-          "Racontez dans un beau livre la naissance ou les premiÃ¨res annÃ©es de votre enfant, pendant que vos souvenirs sont encore frais. Ajoutez jusqu'Ã  40 photos.",
+          "Racontez dans un beau livre la naissance ou les premières années de votre enfant, pendant que vos souvenirs sont encore frais. Ajoutez jusqu'à 40 photos.",
         image: 'bookBirthBook',
         alt: 'Exemple de livre de naissance',
       },
       {
-        title: 'RÃ©cit Libre',
+        title: 'Récit Libre',
         description:
-          "Racontez l'histoire de votre couple, d'un proche, ou laissez une trace de vos rÃ©flexions personnelles, de votre parcours professionnel, etc.",
+          "Racontez l'histoire de votre couple, d'un proche, ou laissez une trace de vos réflexions personnelles, de votre parcours professionnel, etc.",
         image: 'bookFreeNarrative',
-        alt: 'Exemple de rÃ©cit libre',
+        alt: 'Exemple de récit libre',
       },
       {
         title: 'Carnet de Voyage',
         description:
-          "Racontez dans un livre un voyage marquant. Invitez des proches Ã  participer Ã  l'Ã©criture pendant ou aprÃ¨s le voyage. Ajoutez jusqu'Ã  40 photos.",
+          "Racontez dans un livre un voyage marquant. Invitez des proches à participer à l'écriture pendant ou après le voyage. Ajoutez jusqu'à 40 photos.",
         image: 'bookTravelBook',
         alt: 'Exemple de carnet de voyage',
       },
       {
         title: 'Carte Cadeau',
         description:
-          "Offrez Life Story AI Ã  un proche et laissez-le dÃ©cider de ce qu'il souhaite raconter. Un cadeau original pour vos parents, grands-parents et proches.",
+          "Offrez Life Story AI à un proche et laissez-le décider de ce qu'il souhaite raconter. Un cadeau original pour vos parents, grands-parents et proches.",
         image: 'bookGiftCard',
         alt: 'Carte cadeau Life Story AI',
       },
     ],
   },
   weeklyFlow: {
-    title: "Il n'a jamais Ã©tÃ© aussi simple de raconter votre histoire dans un livre",
+    title: "Il n'a jamais été aussi simple de raconter votre histoire dans un livre",
     description: "Lisa s'occupe de tout",
     items: [
       {
         title: 'Une question de Lisa chaque semaine par e-mail ou WhatsApp',
         description:
-          "Lisa envoie chaque semaine une nouvelle question par e-mail ou WhatsApp (bientÃ´t). Tout ce que vous avez Ã  faire, c'est rÃ©pondre au message. Si vous le souhaitez, vous pouvez rÃ©pondre Ã  plus de questions.",
+          "Lisa envoie chaque semaine une nouvelle question par e-mail ou WhatsApp (bientôt). Tout ce que vous avez à faire, c'est répondre au message. Si vous le souhaitez, vous pouvez répondre à plus de questions.",
         image: 'weeklyQuestion',
         alt: 'Exemple de question hebdomadaire',
       },
       {
-        titleHtml: "Pas de texte Ã  taper, <span class='highlight'>il suffit de parler</span>",
-        title: 'Pas de texte Ã  taper, il suffit de parler',
+        titleHtml: "Pas de texte à taper, <span class='highlight'>il suffit de parler</span>",
+        title: 'Pas de texte à taper, il suffit de parler',
         description:
-          'Pas la peine de taper quoi que ce soit : Lisa enregistre et transcrit tout ce qui est dit en 7 langues : franÃ§ais, anglais, espagnol, allemand, portugais, italien et nÃ©erlandais.',
+          'Pas la peine de taper quoi que ce soit : Lisa enregistre et transcrit tout ce qui est dit en 7 langues : français, anglais, espagnol, allemand, portugais, italien et néerlandais.',
         video: 'voiceDemo',
-        alt: 'DÃ©monstration de rÃ©ponse vocale',
+        alt: 'Démonstration de réponse vocale',
       },
       {
-        title: 'RÃ©Ã©criture pour un style littÃ©raire',
+        title: 'Réécriture pour un style littéraire',
         description:
-          "Lisa vous propose de remettre en forme dans un style agrÃ©able Ã  lire tout ce qu'elle a notÃ©. Pas besoin d'Ãªtre Balzac.",
+          "Lisa vous propose de remettre en forme dans un style agréable à lire tout ce qu'elle a noté. Pas besoin d'être Balzac.",
         image: 'rewriteExample',
-        alt: 'Exemple de rÃ©Ã©criture littÃ©raire',
+        alt: 'Exemple de réécriture littéraire',
       },
     ],
   },
@@ -311,38 +311,38 @@ export const frContent: LandingPageContent = {
       {
         icon: 'photo',
         title: 'Ajoutez des photos dans les chapitres',
-        description: "Ajoutez jusqu'Ã  40 photos en couleur ou en noir et blanc.",
+        description: "Ajoutez jusqu'à 40 photos en couleur ou en noir et blanc.",
       },
       {
         icon: 'edit',
-        title: 'Ã‰ditez, supprimez ou ajoutez du contenu',
+        title: 'Éditez, supprimez ou ajoutez du contenu',
         description:
-          'Vous pouvez modifier ou supprimer tous les textes. Vous pouvez Ã©galement ajouter vos propres questions ou histoires dans le livre.',
+          'Vous pouvez modifier ou supprimer tous les textes. Vous pouvez également ajouter vos propres questions ou histoires dans le livre.',
       },
       {
         icon: 'share',
         title: 'Partagez votre livre avec vos amis et votre famille',
         description:
-          'GÃ©nÃ©rez des liens personnalisÃ©s pour que votre famille et vos amis puissent commander directement leurs propres exemplaires. Ils reÃ§oivent les livres Ã  leur porte pendant que vous suivez les commandes depuis votre tableau de bord.',
+          'Générez des liens personnalisés pour que votre famille et vos amis puissent commander directement leurs propres exemplaires. Ils reçoivent les livres à leur porte pendant que vous suivez les commandes depuis votre tableau de bord.',
       },
     ],
     image: 'bookCoverEditor',
-    alt: 'AperÃ§u de personnalisation de couverture',
+    alt: 'Aperçu de personnalisation de couverture',
   },
   pricing: {
-    title: 'Le plus bel hÃ©ritage que vous laisserez Ã  vos proches',
-    description: 'Transformez vos souvenirs en un livre inoubliable. Aucune compÃ©tence rÃ©dactionnelle requise.',
+    title: 'Le plus bel héritage que vous laisserez à vos proches',
+    description: 'Transformez vos souvenirs en un livre inoubliable. Aucune compétence rédactionnelle requise.',
     plans: [
       {
-        name: 'DÃ‰COUVERTE',
-        description: 'SÃ©curisez vos mÃ©moires en numÃ©rique. Imprimez plus tard.',
-        price: '49 â‚¬',
+        name: 'DÉCOUVERTE',
+        description: 'Sécurisez vos mémoires en numérique. Imprimez plus tard.',
+        price: '49 €',
         cta: { label: 'Acheter', href: 'https://app.life-story.ai/registrations/new?product=digital&locale=fr' },
       },
       {
-        name: 'AUTEUR â­',
+        name: 'AUTEUR ⭐',
         description: 'Transformez vos souvenirs en un magnifique livre.',
-        price: '99 â‚¬',
+        price: '99 €',
         featured: true,
         cta: {
           label: 'Acheter',
@@ -352,100 +352,100 @@ export const frContent: LandingPageContent = {
       },
       {
         name: 'FAMILLE',
-        description: 'Le projet familial ultime. Invitez tout le monde Ã  participer pendant 2 ans.',
-        price: '199 â‚¬',
+        description: 'Le projet familial ultime. Invitez tout le monde à participer pendant 2 ans.',
+        price: '199 €',
         cta: { label: 'Acheter', href: 'https://app.life-story.ai/registrations/new?product=premium&locale=fr' },
       },
     ],
     rows: [
       {
-        label: 'Livre imprimÃ©',
-        tooltip: "Jusqu'Ã  350 pages en couleur",
-        values: ['âŒ Pas de livre imprimÃ©', '<strong>âœ… 1 livre couleur inclus</strong>', '<strong>ðŸ“š 5 livres couleur inclus</strong>'],
+        label: 'Livre imprimé',
+        tooltip: "Jusqu'à 350 pages en couleur",
+        values: ['❌ Pas de livre imprimé', '<strong>✅ 1 livre couleur inclus</strong>', '<strong>📚 5 livres couleur inclus</strong>'],
       },
       {
         label: 'Photos',
         tooltip: 'Photos et images en couleurs',
-        values: ['50 photos max.', 'â™¾ï¸ Photos illimitÃ©es', 'â™¾ï¸ Photos illimitÃ©es'],
+        values: ['50 photos max.', '♾️ Photos illimitées', '♾️ Photos illimitées'],
       },
       {
         label: 'Livraison',
         tooltip: "Tarif de livraison pour les livres inclus dans l'offre",
-        values: ['â€”', 'âœˆï¸ Livraison monde offerte', 'âœˆï¸ Livraison monde offerte'],
+        values: ['—', '✈️ Livraison monde offerte', '✈️ Livraison monde offerte'],
       },
       {
         label: 'Participants',
-        tooltip: "Le nombre d'auteurs ou d'interviewers qui auront accÃ¨s Ã  l'application",
-        values: ['Solo 1 auteur', 'ðŸ‘¥ <strong>Duo (vous + 1 invitÃ©)</strong>', "ðŸ‘¨â€ðŸ‘©â€ðŸ‘§â€ðŸ‘¦ <strong>Famille (jusqu'Ã  10)</strong>"],
+        tooltip: "Le nombre d'auteurs ou d'interviewers qui auront accès à l'application",
+        values: ['Solo 1 auteur', '👥 <strong>Duo (vous + 1 invité)</strong>', "👨‍👩‍👧‍👦 <strong>Famille (jusqu'à 10)</strong>"],
       },
       {
         label: 'Biographe IA',
-        tooltip: "Transcription audio, questions personnalisÃ©es, aide Ã  l'Ã©criture et mise en page, et bien plus encore",
+        tooltip: "Transcription audio, questions personnalisées, aide à l'écriture et mise en page, et bien plus encore",
         values: ['Inclus', 'Inclus', 'Inclus'],
       },
       {
-        label: "DurÃ©e d'accÃ¨s",
+        label: "Durée d'accès",
         values: ['6 mois', '1 an', '2 ans'],
       },
       {
-        label: 'Livre supplÃ©mentaire',
-        values: ['59 â‚¬ / livre', '39 â‚¬ / livre', '<strong>29 â‚¬ / livre</strong> ðŸ”¥'],
+        label: 'Livre supplémentaire',
+        values: ['59 € / livre', '39 € / livre', '<strong>29 € / livre</strong> 🔥'],
       },
       {
-        label: 'Export numÃ©rique',
+        label: 'Export numérique',
         values: ['PDF / ePub', 'PDF / ePub', 'PDF / ePub'],
       },
     ],
   },
   guarantee: {
-    title: 'ðŸ† Garantie satisfait ou remboursÃ© de 30 jours',
+    title: '🏆 Garantie satisfait ou remboursé de 30 jours',
     description:
-      "Si vous ou votre parent n'Ãªtes pas satisfait, ou si le cadeau n'est finalement pas utilisÃ©, vous Ãªtes remboursÃ© sans condition jusqu'Ã  30 jours aprÃ¨s l'achat.",
+      "Si vous ou votre parent n'êtes pas satisfait, ou si le cadeau n'est finalement pas utilisé, vous êtes remboursé sans condition jusqu'à 30 jours après l'achat.",
   },
   examples: {
     title: 'Exemples de livres',
-    description: "C'est ce que vous recevrez Ã  la fin.",
+    description: "C'est ce que vous recevrez à la fin.",
     items: [
       { image: 'exampleGift', alt: 'Exemple de livre cadeau' },
-      { image: 'exampleAutobiography', alt: "Exemple d'autobiographie imprimÃ©e" },
-      { image: 'exampleFamilyStory', alt: "Exemple d'histoire familiale imprimÃ©e" },
+      { image: 'exampleAutobiography', alt: "Exemple d'autobiographie imprimée" },
+      { image: 'exampleFamilyStory', alt: "Exemple d'histoire familiale imprimée" },
     ],
   },
   privacy: {
-    title: 'Nous respectons votre vie privÃ©e',
-    description: "Vos donnÃ©es sont protÃ©gÃ©es et ne sont pas transfÃ©rÃ©es Ã  d'autres individus ou entreprises.",
+    title: 'Nous respectons votre vie privée',
+    description: "Vos données sont protégées et ne sont pas transférées à d'autres individus ou entreprises.",
   },
   finalCta: {
-    title: 'PrÃ©servez maintenant les histoires qui comptent',
-    description: 'Une idÃ©e de cadeau originale et personnalisÃ©e pour un parent, une grand-mÃ¨reâ€¦ ou vous-mÃªme.',
-    cta: { label: 'Acheter Ã  partir de 99 â‚¬', href: 'https://app.life-story.ai/registrations/new?locale=fr', primary: true },
-    info: "AccÃ¨s Ã  l'app pendant 1 an, premiÃ¨re impression incluse.",
+    title: 'Préservez maintenant les histoires qui comptent',
+    description: 'Une idée de cadeau originale et personnalisée pour un parent, une grand-mère… ou vous-même.',
+    cta: { label: 'Acheter à partir de 99 €', href: 'https://app.life-story.ai/registrations/new?locale=fr', primary: true },
+    info: "Accès à l'app pendant 1 an, première impression incluse.",
   },
   faq: {
     title: 'FAQ',
     items: [...frFaq],
   },
   footer: {
-    lines: ['Â© 2025 Life Story AI', "23 rue d'Essling, 92400 Courbevoie", 'hello@life-story.ai', 'Tel : +33 1 89 31 80 33', 'FabriquÃ© en France'],
+    lines: ['© 2025 Life Story AI', "23 rue d'Essling, 92400 Courbevoie", 'hello@life-story.ai', 'Tel : +33 1 89 31 80 33', 'Fabriqué en France'],
     socialLinks: [...footerSocials],
-    currentLanguage: 'FranÃ§ais',
+    currentLanguage: 'Français',
     alternateLanguage: { label: 'English', href: '/' },
     legalLinks: [
       {
         links: [
           { label: 'Carte cadeau', href: 'https://app.life-story.ai/registrations/new?locale=fr' },
-          { label: 'FonctionnalitÃ©s', href: '#feature' },
+          { label: 'Fonctionnalités', href: '#feature' },
           { label: 'Prix', href: '#new-pricing' },
-          { label: 'Politique de confidentialitÃ©', href: 'https://life-story.ai/fr/politique-de-confidentialite' },
+          { label: 'Politique de confidentialité', href: 'https://life-story.ai/fr/politique-de-confidentialite' },
           { label: "Conditions d'utilisation", href: 'https://life-story.ai/fr/conditions-utilisation' },
         ],
       },
       {
         links: [
           { label: 'Trustpilot', href: 'https://fr.trustpilot.com/review/life-story.ai' },
-          { label: 'Mentions lÃ©gales', href: 'https://life-story.ai/fr/mentions-legales' },
+          { label: 'Mentions légales', href: 'https://life-story.ai/fr/mentions-legales' },
           { label: 'FAQ', href: '#faq' },
-          { label: 'Ã€ propos de nous', href: 'https://life-story.ai/fr/team' },
+          { label: 'À propos de nous', href: 'https://life-story.ai/fr/team' },
           { label: 'Vision', href: 'https://life-story.ai/fr/vision' },
           { label: 'Blog', href: 'https://life-story.ai/blog' },
         ],
@@ -455,7 +455,7 @@ export const frContent: LandingPageContent = {
         links: [
           { label: 'Offrir une biographie', href: 'https://life-story.ai/fr-cadeau-biographie' },
           { label: 'Mon autobiographie', href: 'https://life-story.ai/autobiographie' },
-          { label: 'Biographie mÃ¨re', href: 'https://life-story.ai/fr-biographie-mere' },
+          { label: 'Biographie mère', href: 'https://life-story.ai/fr-biographie-mere' },
           { label: 'Histoires de famille', href: 'https://life-story.ai/' },
           { label: 'Impact', href: 'https://life-story.ai/impact' },
         ],

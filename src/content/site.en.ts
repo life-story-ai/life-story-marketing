@@ -4,7 +4,7 @@ import { footerSocials } from './site.shared';
 export const enContent: LandingPageContent = {
   locale: 'en',
   meta: {
-    title: 'Life Story AI â€“ Family stories and autobiography with your AI biographer',
+    title: 'Life Story AI – Family stories and autobiography with your AI biographer',
     description:
       "Every family has a story worth preserving. Capture a parent's memories, tell your grandparents' story, or write your own. Simply answer questions by voice or text, invite loved ones to contribute, and receive your printed book in a few weeks.",
   },
@@ -20,11 +20,11 @@ export const enContent: LandingPageContent = {
     ],
     buyCta: { label: 'Buy', href: 'https://app.life-story.ai/registrations/new?locale=en', primary: true },
     currentLanguage: 'EN',
-    alternateLanguage: { label: 'FranÃ§ais', href: '/fr' },
+    alternateLanguage: { label: 'Français', href: '/fr' },
   },
   hero: {
     titleHtml:
-      "Preserve the stories that matter in a beautiful book â€” <span class='highlight'>written with your loved ones</span>, guided by AI âœ¨",
+      "Preserve the stories that matter in a beautiful book — <span class='highlight'>written with your loved ones</span>, guided by AI ✨",
     description:
       "Every family has a story worth preserving. Capture a parent's memories, tell your grandparents' story, or write your own. Simply answer questions by voice or text, invite loved ones to contribute, and receive your printed book in a few weeks.",
     cta: { label: 'Buy', href: 'https://app.life-story.ai/registrations/new?locale=en', primary: true },
@@ -46,7 +46,7 @@ export const enContent: LandingPageContent = {
       {
         rating: '5 / 5',
         quote:
-          'Using Life Story was a delightful experience that brought our family closer through grandpaâ€™s precious memories. I highly recommend it to any family that wants to preserve its story in such a special way.',
+          "Using Life Story was a delightful experience that brought our family closer through grandpa's precious memories. I highly recommend it to any family that wants to preserve its story in such a special way.",
         author: "Read Julia's review",
         href: 'https://trstp.lt/afQ_D20hB',
       },
@@ -80,7 +80,7 @@ export const enContent: LandingPageContent = {
       {
         title: 'Interviewer(s)',
         description:
-          'They can ask questions to the book author, who can then answer by creating a story. Example: â€œWhy did you move to France after your studies?â€ They do not have access to the stories themselves.',
+          'They can ask questions to the book author, who can then answer by creating a story. Example: "Why did you move to France after your studies?" They do not have access to the stories themselves.',
         image: 'roleInterviewer',
         alt: 'Interviewer illustration',
       },
@@ -101,13 +101,13 @@ export const enContent: LandingPageContent = {
         icon: 'clipboard',
         title: 'Just answer the questions',
         description:
-          'For example: â€œWhere did you grow up?â€, â€œHow many brothers and sisters did you have?â€, â€œWhat was your childhood home like?â€, â€œWhat did your parents do?â€',
+          'For example: "Where did you grow up?", "How many brothers and sisters did you have?", "What was your childhood home like?", "What did your parents do?"',
       },
       {
         icon: 'profile',
         title: 'Personalized questions',
         description:
-          'Lisa asks relevant questions based on your parentâ€™s previous answers. For example: â€œAs an only child, how did you entertain yourself?â€',
+          "Lisa asks relevant questions based on your parent's previous answers. For example: \"As an only child, how did you entertain yourself?\"",
       },
       {
         icon: 'list',
@@ -244,20 +244,20 @@ export const enContent: LandingPageContent = {
       {
         name: 'DISCOVERY',
         description: 'Secure your memories digitally. Print later.',
-        price: '49 â‚¬',
+        price: '49 €',
         cta: { label: 'Buy', href: 'https://app.life-story.ai/registrations/new?product=digital&locale=en' },
       },
       {
-        name: 'AUTHOR â­',
+        name: 'AUTHOR ⭐',
         description: 'Turn your memories into a beautiful printed book.',
-        price: '99 â‚¬',
+        price: '99 €',
         featured: true,
         cta: { label: 'Buy', href: 'https://app.life-story.ai/registrations/new?product=standard&locale=en', primary: true },
       },
       {
         name: 'FAMILY',
         description: 'The ultimate family project. Invite everyone to contribute for 2 years.',
-        price: '199 â‚¬',
+        price: '199 €',
         cta: { label: 'Buy', href: 'https://app.life-story.ai/registrations/new?product=premium&locale=en' },
       },
     ],
@@ -265,22 +265,22 @@ export const enContent: LandingPageContent = {
       {
         label: 'Printed book',
         tooltip: 'Up to 350 color pages',
-        values: ['âŒ No printed book', '<strong>âœ… 1 color book included</strong>', '<strong>ðŸ“š 5 color books included</strong>'],
+        values: ['❌ No printed book', '<strong>✅ 1 color book included</strong>', '<strong>📚 5 color books included</strong>'],
       },
       {
         label: 'Photos',
         tooltip: 'Photos and illustrations in color',
-        values: ['50 photos max.', 'â™¾ï¸ Unlimited photos', 'â™¾ï¸ Unlimited photos'],
+        values: ['50 photos max.', '♾️ Unlimited photos', '♾️ Unlimited photos'],
       },
       {
         label: 'Shipping',
         tooltip: 'Shipping for the books included in the offer',
-        values: ['â€”', 'âœˆï¸ Free worldwide shipping', 'âœˆï¸ Free worldwide shipping'],
+        values: ['—', '✈️ Free worldwide shipping', '✈️ Free worldwide shipping'],
       },
       {
         label: 'Participants',
         tooltip: 'The number of authors or interviewers who can access the app',
-        values: ['Solo, 1 author', 'ðŸ‘¥ <strong>Duo (you + 1 guest)</strong>', '<strong>ðŸ‘¨â€ðŸ‘©â€ðŸ‘§â€ðŸ‘¦ Family (up to 10)</strong>'],
+        values: ['Solo, 1 author', '👥 <strong>Duo (you + 1 guest)</strong>', '<strong>👨‍👩‍👧‍👦 Family (up to 10)</strong>'],
       },
       {
         label: 'AI biographer',
@@ -293,7 +293,7 @@ export const enContent: LandingPageContent = {
       },
       {
         label: 'Additional book',
-        values: ['59 â‚¬ / book', '39 â‚¬ / book', '<strong>29 â‚¬ / book</strong> ðŸ”¥'],
+        values: ['59 € / book', '39 € / book', '<strong>29 € / book</strong> 🔥'],
       },
       {
         label: 'Digital export',
@@ -302,7 +302,7 @@ export const enContent: LandingPageContent = {
     ],
   },
   guarantee: {
-    title: 'ðŸ† 30-day money-back guarantee',
+    title: '🏆 30-day money-back guarantee',
     description:
       'If you or your parent are not satisfied, or if the gift is never used, you can request a full refund within 30 days of purchase.',
   },
@@ -322,7 +322,7 @@ export const enContent: LandingPageContent = {
   finalCta: {
     title: 'Preserve the stories that matter now',
     description: 'An original and deeply personal gift for a parent, a grandmother, or yourself.',
-    cta: { label: 'Buy from 99 â‚¬', href: 'https://app.life-story.ai/registrations/new?locale=en', primary: true },
+    cta: { label: 'Buy from 99 €', href: 'https://app.life-story.ai/registrations/new?locale=en', primary: true },
     info: '1 year of app access, first printed copy included.',
   },
   faq: {
@@ -366,7 +366,7 @@ export const enContent: LandingPageContent = {
       },
       {
         question: 'Can I write my own texts or stories?',
-        answer: 'Yes. Lisaâ€™s guidance and questions are optional, so you can tell the story you want to tell.',
+        answer: "Yes. Lisa's guidance and questions are optional, so you can tell the story you want to tell.",
       },
       { question: 'Is there a limit to the number of questions?', answer: 'No. You can answer as many questions as you like.' },
       { question: 'Is there a page limit for the book?', answer: 'Yes. The printed book is limited to a maximum of 250 pages.' },
@@ -390,10 +390,10 @@ export const enContent: LandingPageContent = {
     ],
   },
   footer: {
-    lines: ['Â© 2025 Life Story AI', "23 rue d'Essling, 92400 Courbevoie", 'hello@life-story.ai', 'Tel: +33 1 89 31 80 33', 'Made in France'],
+    lines: ['© 2025 Life Story AI', "23 rue d'Essling, 92400 Courbevoie", 'hello@life-story.ai', 'Tel: +33 1 89 31 80 33', 'Made in France'],
     socialLinks: [...footerSocials],
     currentLanguage: 'English',
-    alternateLanguage: { label: 'FranÃ§ais', href: '/fr' },
+    alternateLanguage: { label: 'Français', href: '/fr' },
     legalLinks: [
       {
         links: [
