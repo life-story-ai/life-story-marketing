@@ -1,0 +1,11 @@
+services:
+  web:
+    image: ${DOCKER_IMAGE:-ghcr.io/chaibax/life-story-showcase:latest}
+    restart: unless-stopped
+    networks:
+      - default
+      - proxy
+
+networks:
+  proxy:
+    external: true
