@@ -12,6 +12,7 @@ interface Props {
 
 const { content, locale, anchorHrefPrefix = '' } = Astro.props;
 const alternateLanguageHref = withConfiguredSiteHref(content.alternateLanguage.href);
+const [companyLine = '', addressLine = '', emailLine = '', ...detailLines] = content.lines;
 
 function resolveHref(href: string) {
   return normalizeSiteHref(locale, href, { anchorHrefPrefix });
@@ -23,11 +24,15 @@ function resolveHref(href: string) {
     <div class="footer">
       <div class="footer__primary">
         <span>
-          {content.lines[0]}<br />
-          {content.lines[1]}<br />
-          Email: <a href={`mailto:${content.lines[2]}`}>{content.lines[2]}</a><br />
-          {content.lines[3]}<br />
-          {content.lines[4]}
+          {companyLine}<br />
+          {addressLine}<br />
+          Email: <a href={`mailto:${emailLine}`}>{emailLine}</a>
+          {detailLines.map((line) => (
+            <>
+              <br />
+              {line}
+            </>
+          ))}
         </span>
         <ul class="footer__social">
           {content.socialLinks.map((link) => (

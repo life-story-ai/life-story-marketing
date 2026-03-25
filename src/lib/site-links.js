@@ -67,6 +67,9 @@ function localizeGenericPath(locale, path) {
     case '/gift':
     case '/autobiography':
     case '/mother-biography':
+    case '/grandmother-biography':
+    case '/parents-grandparents':
+    case '/childhood-book':
       return locale === 'fr' ? '/fr' : '/';
     case '/fr-cadeau-biographie':
     case '/autobiographie':

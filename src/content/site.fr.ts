@@ -426,7 +426,7 @@ export const frContent: LandingPageContent = {
     items: [...frFaq],
   },
   footer: {
-    lines: ['© 2025 Life Story AI', "23 rue d'Essling, 92400 Courbevoie", 'hello@life-story.ai', 'Tel : +33 1 89 31 80 33', 'Fabriqué en France'],
+    lines: ['© 2025 Life Story AI', "23 rue d'Essling, 92400 Courbevoie", 'hello@life-story.ai', 'Fabriqué en France'],
     socialLinks: [...footerSocials],
     currentLanguage: 'Français',
     alternateLanguage: { label: 'English', href: '/' },

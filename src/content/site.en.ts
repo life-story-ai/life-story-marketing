@@ -18,7 +18,7 @@ export const enContent: LandingPageContent = {
       { label: 'Free trial', href: 'https://app.life-story.ai/sign_up?locale=en' },
       { label: 'Sign in', href: 'https://app.life-story.ai/sign_in' },
     ],
-    buyCta: { label: 'Buy', href: 'https://app.life-story.ai/registrations/new?locale=en', primary: true },
+    buyCta: { label: 'Buy now', href: 'https://app.life-story.ai/registrations/new?locale=en', primary: true },
     currentLanguage: 'EN',
     alternateLanguage: { label: 'Français', href: '/fr' },
   },
@@ -27,7 +27,7 @@ export const enContent: LandingPageContent = {
       "Preserve the stories that matter in a beautiful book — <span class='highlight'>written with your loved ones</span>, guided by AI ✨",
     description:
       "Every family has a story worth preserving. Capture a parent's memories, tell your grandparents' story, or write your own. Simply answer questions by voice or text, invite loved ones to contribute, and receive your printed book in a few weeks.",
-    cta: { label: 'Buy', href: 'https://app.life-story.ai/registrations/new?locale=en', primary: true },
+    cta: { label: 'Buy now', href: 'https://app.life-story.ai/registrations/new?locale=en', primary: true },
     info: 'Printable gift card included',
     image: 'heroFamilyBook',
     alt: 'Life Story AI keepsake book',
@@ -242,23 +242,23 @@ export const enContent: LandingPageContent = {
     description: 'Transform your memories into an unforgettable book. No writing experience required.',
     plans: [
       {
-        name: 'DISCOVERY',
+        name: 'STARTER',
         description: 'Secure your memories digitally. Print later.',
-        price: '49 €',
-        cta: { label: 'Buy', href: 'https://app.life-story.ai/registrations/new?product=digital&locale=en' },
+        price: '$49',
+        cta: { label: 'Buy now', href: 'https://app.life-story.ai/registrations/new?product=digital&locale=en' },
       },
       {
         name: 'AUTHOR ⭐',
         description: 'Turn your memories into a beautiful printed book.',
-        price: '99 €',
+        price: '$99',
         featured: true,
-        cta: { label: 'Buy', href: 'https://app.life-story.ai/registrations/new?product=standard&locale=en', primary: true },
+        cta: { label: 'Buy now', href: 'https://app.life-story.ai/registrations/new?product=standard&locale=en', primary: true },
       },
       {
         name: 'FAMILY',
         description: 'The ultimate family project. Invite everyone to contribute for 2 years.',
-        price: '199 €',
-        cta: { label: 'Buy', href: 'https://app.life-story.ai/registrations/new?product=premium&locale=en' },
+        price: '$199',
+        cta: { label: 'Buy now', href: 'https://app.life-story.ai/registrations/new?product=premium&locale=en' },
       },
     ],
     rows: [
@@ -293,7 +293,7 @@ export const enContent: LandingPageContent = {
       },
       {
         label: 'Additional book',
-        values: ['59 € / book', '39 € / book', '<strong>29 € / book</strong> 🔥'],
+        values: ['$59 / book', '$39 / book', '<strong>$29 / book</strong> 🔥'],
       },
       {
         label: 'Digital export',
@@ -322,7 +322,7 @@ export const enContent: LandingPageContent = {
   finalCta: {
     title: 'Preserve the stories that matter now',
     description: 'An original and deeply personal gift for a parent, a grandmother, or yourself.',
-    cta: { label: 'Buy from 99 €', href: 'https://app.life-story.ai/registrations/new?locale=en', primary: true },
+    cta: { label: 'Buy now from $99', href: 'https://app.life-story.ai/registrations/new?locale=en', primary: true },
     info: '1 year of app access, first printed copy included.',
   },
   faq: {
@@ -336,7 +336,7 @@ export const enContent: LandingPageContent = {
       {
         question: 'What exactly am I buying?',
         answer:
-          'The final product is a real book of up to 250 pages, printed and shipped to you. You can choose the style, customize the cover, and edit or remove chapters as you wish. On the Discovery plan, you buy the digital version only.',
+          'The final product is a real book of up to 250 pages, printed and shipped to you. You can choose the style, customize the cover, and edit or remove chapters as you wish. On the Starter plan, you buy the digital version only.',
       },
       {
         question: 'Who is Lisa?',
@@ -349,7 +349,7 @@ export const enContent: LandingPageContent = {
       },
       {
         question: 'How many people can participate in writing a book?',
-        answer: 'It depends on your plan: solo on Discovery, duo on Author, and up to 10 participants on Family.',
+        answer: 'It depends on your plan: solo on Starter, duo on Author, and up to 10 participants on Family.',
       },
       {
         question: 'How long does it take to write a complete book?',
@@ -390,7 +390,7 @@ export const enContent: LandingPageContent = {
     ],
   },
   footer: {
-    lines: ['© 2025 Life Story AI', "23 rue d'Essling, 92400 Courbevoie", 'hello@life-story.ai', 'Tel: +33 1 89 31 80 33', 'Made in France'],
+    lines: ['© 2025 Life Story AI', "23 rue d'Essling, 92400 Courbevoie", 'hello@life-story.ai', 'Made in France'],
     socialLinks: [...footerSocials],
     currentLanguage: 'English',
     alternateLanguage: { label: 'Français', href: '/fr' },
