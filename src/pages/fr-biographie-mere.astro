@@ -1,5 +1,13 @@
 ---
-import { withSitePath } from '../lib/i18n';
+import LandingPage from '../components/LandingPage.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getLandingPageContent } from '../content/site';
 
-return Astro.redirect(withSitePath('/fr'), 301);
+const content = getLandingPageContent('fr');
+const title = 'Écrire la biographie de sa mère – Life Story AI';
+const description = 'Préservez les souvenirs de votre mère dans un beau livre imprimé. Guidée par un biographe IA, elle répond à des questions à son rythme et vous recevez un livre précieux.';
 ---
+
+<BaseLayout locale="fr" title={title} description={description} canonicalPath="/fr-biographie-mere">
+  <LandingPage content={content} />
+</BaseLayout>

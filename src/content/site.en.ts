@@ -416,10 +416,10 @@ export const enContent: LandingPageContent = {
       {
         title: 'See also',
         links: [
-          { label: 'Gift a biography', href: '/' },
-          { label: 'Autobiography', href: '/' },
-          { label: 'Mother biography', href: '/' },
-          { label: 'Family stories', href: '/' },
+          { label: 'Gift a biography', href: '/gift' },
+          { label: 'Autobiography', href: '/autobiography' },
+          { label: 'Mother biography', href: '/mother-biography' },
+          { label: 'Grandmother biography', href: '/grandmother-biography' },
           { label: 'Impact', href: '/impact' },
         ],
       },

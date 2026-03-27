@@ -453,10 +453,10 @@ export const frContent: LandingPageContent = {
       {
         title: 'Voir aussi',
         links: [
-          { label: 'Offrir une biographie', href: '/fr' },
-          { label: 'Mon autobiographie', href: '/fr' },
-          { label: 'Biographie mère', href: '/fr' },
-          { label: 'Histoires de famille', href: '/fr' },
+          { label: 'Offrir une biographie', href: '/fr-cadeau-biographie' },
+          { label: 'Mon autobiographie', href: '/autobiographie' },
+          { label: 'Biographie mère', href: '/fr-biographie-mere' },
+          { label: 'Biographie grand-mère', href: '/grandmother-biography' },
           { label: 'Impact', href: '/fr/impact' },
         ],
       },

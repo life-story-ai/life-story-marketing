@@ -70,11 +70,14 @@ function localizeGenericPath(locale, path) {
     case '/grandmother-biography':
     case '/parents-grandparents':
     case '/childhood-book':
-      return locale === 'fr' ? '/fr' : '/';
+    case '/how-it-works':
+      return path;
     case '/fr-cadeau-biographie':
     case '/autobiographie':
+    case '/fr-autobiographie':
     case '/fr-biographie-mere':
-      return '/fr';
+    case '/offrir-biographie':
+      return path;
     default:
       return path;
   }

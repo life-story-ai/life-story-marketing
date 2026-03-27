@@ -1,5 +1,13 @@
 ---
-import { withSitePath } from '../lib/i18n';
+import LandingPage from '../components/LandingPage.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getLandingPageContent } from '../content/site';
 
-return Astro.redirect(withSitePath('/'), 301);
+const content = getLandingPageContent('en');
+const title = 'Create a Childhood Memory Book – Life Story AI';
+const description = "Capture your child's early years in a beautiful printed book. Record milestones, funny moments, and family memories with the help of an AI biographer.";
 ---
+
+<BaseLayout locale="en" title={title} description={description} canonicalPath="/childhood-book">
+  <LandingPage content={content} />
+</BaseLayout>

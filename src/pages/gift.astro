@@ -1,5 +1,13 @@
 ---
-import { withSitePath } from '../lib/i18n';
+import LandingPage from '../components/LandingPage.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getLandingPageContent } from '../content/site';
 
-return Astro.redirect(withSitePath('/'));
+const content = getLandingPageContent('en');
+const title = 'Gift a Biography Book – Unique & Personal Gift Idea – Life Story AI';
+const description = "Give the gift of a lifetime: a printed biography book. Perfect for parents, grandparents, or anyone with a story to tell. Includes a printable gift card.";
 ---
+
+<BaseLayout locale="en" title={title} description={description} canonicalPath="/gift">
+  <LandingPage content={content} />
+</BaseLayout>

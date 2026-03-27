@@ -1,0 +1,13 @@
+---
+import LandingPage from '../components/LandingPage.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getLandingPageContent } from '../content/site';
+
+const content = getLandingPageContent('en');
+const title = 'How It Works – Life Story AI';
+const description = 'Discover how Life Story AI works: answer questions by voice or text, invite loved ones to contribute, and receive your printed biography book in a few weeks.';
+---
+
+<BaseLayout locale="en" title={title} description={description} canonicalPath="/how-it-works">
+  <LandingPage content={content} />
+</BaseLayout>
