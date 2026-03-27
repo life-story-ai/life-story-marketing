@@ -1,5 +1,13 @@
 ---
-import { withSitePath } from '../lib/i18n';
+import LandingPage from '../components/LandingPage.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getLandingPageContent } from '../content/site';
 
-return Astro.redirect(withSitePath('/'), 301);
+const content = getLandingPageContent('en');
+const title = "Write Your Grandmother's Biography – Preserve Her Memories – Life Story AI";
+const description = "Preserve your grandmother's precious memories in a printed book. She answers questions at her own pace, guided by an AI biographer, and you receive a keepsake book.";
 ---
+
+<BaseLayout locale="en" title={title} description={description} canonicalPath="/grandmother-biography">
+  <LandingPage content={content} />
+</BaseLayout>

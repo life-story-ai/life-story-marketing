@@ -1,5 +1,13 @@
 ---
-import { withSitePath } from '../lib/i18n';
+import LandingPage from '../components/LandingPage.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getLandingPageContent } from '../content/site';
 
-return Astro.redirect(withSitePath('/'), 301);
+const content = getLandingPageContent('en');
+const title = 'Write Your Autobiography with AI – Life Story AI';
+const description = 'Write your autobiography with the help of an AI biographer. Answer questions by voice or text, and receive a beautifully printed book of your life story in a few weeks.';
 ---
+
+<BaseLayout locale="en" title={title} description={description} canonicalPath="/autobiography">
+  <LandingPage content={content} />
+</BaseLayout>
