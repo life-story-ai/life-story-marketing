@@ -15,9 +15,6 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-env:
-  SITE_URL: https://tiitan.github.io/life-story-marketing/
-
 jobs:
   build:
     name: Build
