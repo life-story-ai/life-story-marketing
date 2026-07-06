@@ -350,6 +350,10 @@ a:not(.btn):hover {
   padding: 2.5em 3em;
 }
 
+.post__content {
+  white-space: normal;
+}
+
 .post__content h2,
 .post__content h3 {
   color: #111;
@@ -384,6 +388,12 @@ a:not(.btn):hover {
   font-size: 0.95em;
   margin: 1.75rem 0;
   width: 100%;
+}
+
+.post__content h2 + table,
+.post__content h3 + table,
+.post__content p + table {
+  margin-top: 0.75rem;
 }
 
 .post__content th,
