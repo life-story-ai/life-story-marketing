@@ -1,5 +1,6 @@
 ---
 import { publicImageManifest } from '../content/images';
+import { productFacts } from '../content/product-facts';
 import { withSitePath } from '../lib/i18n';
 
 interface Props {
@@ -14,6 +15,8 @@ const trustpilotStarsSrc = withSitePath(publicImageManifest.trustpilotStars);
 <section id={id} class:list={['section', 'section--media', narrow ? 'section--left' : 'section--center', 'dark']} style={`padding-bottom:${narrow ? '120px' : '60px'};padding-top:${narrow ? '0' : '60px'};--pdx-min-height:0px;--wr-max:${narrow ? '300px' : '300px'}`}>
   <div class="wr titleAlign--top">
     <div class="titleWrapper"></div>
-    <img src={trustpilotStarsSrc} class="media media--image" style="display:block" alt="Trustpilot rating" />
+    <a href={productFacts.trustpilot.profileUrl}>
+      <img src={trustpilotStarsSrc} class="media media--image" style="display:block" alt="Trustpilot rating" />
+    </a>
   </div>
 </section>

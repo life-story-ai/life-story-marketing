@@ -1,6 +1,7 @@
-import type { LandingPageContent, Locale } from './types';
+import type { LandingPageContent, LandingVariantKey, Locale } from './types';
 import { enContent } from './site.en';
 import { frContent } from './site.fr';
+import { getLandingPageVariantContent as buildLandingPageVariantContent } from './landing-variants';
 import { normalizeCopy } from '../lib/text';
 
 export const landingPageContent: Record<Locale, LandingPageContent> = {
@@ -10,4 +11,8 @@ export const landingPageContent: Record<Locale, LandingPageContent> = {
 
 export function getLandingPageContent(locale: Locale) {
   return landingPageContent[locale];
+}
+
+export function getLandingPageVariantContent(variant: LandingVariantKey) {
+  return buildLandingPageVariantContent(landingPageContent.en, variant);
 }

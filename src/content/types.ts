@@ -1,4 +1,5 @@
 export type Locale = 'en' | 'fr';
+export type LandingVariantKey = 'gift' | 'autobiography' | 'motherBiography' | 'grandmotherBiography' | 'childhoodBook';
 
 export type ImageKey =
   | 'logo'

@@ -1,13 +1,21 @@
 ---
 import LandingPage from '../components/LandingPage.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getLandingPageContent } from '../content/site';
+import { getLandingPageVariantContent } from '../content/site';
 
-const content = getLandingPageContent('en');
-const title = 'Gift a Biography Book – Unique & Personal Gift Idea – Life Story AI';
-const description = "Give the gift of a lifetime: a printed biography book. Perfect for parents, grandparents, or anyone with a story to tell. Includes a printable gift card.";
+const content = getLandingPageVariantContent('gift');
+const canonicalPath = '/gift';
 ---
 
-<BaseLayout locale="en" title={title} description={description} canonicalPath="/gift">
+<BaseLayout
+  locale="en"
+  title={content.meta.title}
+  description={content.meta.description}
+  canonicalPath={canonicalPath}
+  alternateLinks={[
+    { hreflang: 'en', href: canonicalPath },
+    { hreflang: 'x-default', href: canonicalPath },
+  ]}
+>
   <LandingPage content={content} />
 </BaseLayout>

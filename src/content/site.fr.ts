@@ -1,4 +1,5 @@
 import type { LandingPageContent } from './types';
+import { productFacts } from './product-facts';
 import { footerSocials } from './site.shared';
 
 const frFaq = [
@@ -10,7 +11,7 @@ const frFaq = [
   {
     question: "Qu'est-ce que j'achète au final ?",
     answer:
-      "Le produit final est un vrai livre pouvant contenir jusqu'à 250 pages, imprimé et envoyé par courrier. Vous pouvez choisir le style de votre biographie, personnaliser la couverture et éditer ou supprimer des chapitres à votre guise. Sur l'offre Découverte, vous achetez uniquement la version numérique.",
+      `Le produit final est un vrai livre pouvant contenir jusqu'à ${productFacts.printedBookMaxColorPages} pages, imprimé et envoyé par courrier. Vous pouvez choisir le style de votre biographie, personnaliser la couverture et éditer ou supprimer des chapitres à votre guise. Sur l'offre Découverte, vous achetez uniquement la version numérique.`,
   },
   {
     question: 'Qui est Lisa ?',
@@ -50,7 +51,7 @@ const frFaq = [
   },
   {
     question: 'Y a-t-il une limite de pages pour le livre ?',
-    answer: 'Oui, le livre est limité à un maximum de 250 pages.',
+    answer: `Oui, le livre est limité à un maximum de ${productFacts.printedBookMaxColorPages} pages.`,
   },
   {
     question: "Puis-je répondre à plus d'une question par semaine ?",
@@ -244,7 +245,7 @@ export const frContent: LandingPageContent = {
       {
         title: 'Livre de Naissance',
         description:
-          "Racontez dans un beau livre la naissance ou les premières années de votre enfant, pendant que vos souvenirs sont encore frais. Ajoutez jusqu'à 40 photos.",
+          "Racontez dans un beau livre la naissance ou les premières années de votre enfant, pendant que vos souvenirs sont encore frais. Ajoutez des photos sans limite.",
         image: 'bookBirthBook',
         alt: 'Exemple de livre de naissance',
       },
@@ -258,7 +259,7 @@ export const frContent: LandingPageContent = {
       {
         title: 'Carnet de Voyage',
         description:
-          "Racontez dans un livre un voyage marquant. Invitez des proches à participer à l'écriture pendant ou après le voyage. Ajoutez jusqu'à 40 photos.",
+          "Racontez dans un livre un voyage marquant. Invitez des proches à participer à l'écriture pendant ou après le voyage. Ajoutez des photos sans limite.",
         image: 'bookTravelBook',
         alt: 'Exemple de carnet de voyage',
       },
@@ -311,7 +312,7 @@ export const frContent: LandingPageContent = {
       {
         icon: 'photo',
         title: 'Ajoutez des photos dans les chapitres',
-        description: "Ajoutez jusqu'à 40 photos en couleur ou en noir et blanc.",
+        description: "Ajoutez des photos sans limite en couleur ou en noir et blanc.",
       },
       {
         icon: 'edit',
@@ -336,13 +337,13 @@ export const frContent: LandingPageContent = {
       {
         name: 'DÉCOUVERTE',
         description: 'Sécurisez vos mémoires en numérique. Imprimez plus tard.',
-        price: '49 €',
+        price: `${productFacts.plans.starter.priceEur} €`,
         cta: { label: 'Acheter', href: 'https://app.life-story.ai/registrations/new?product=digital&locale=fr' },
       },
       {
         name: 'AUTEUR ⭐',
         description: 'Transformez vos souvenirs en un magnifique livre.',
-        price: '99 €',
+        price: `${productFacts.plans.author.priceEur} €`,
         featured: true,
         cta: {
           label: 'Acheter',
@@ -353,20 +354,24 @@ export const frContent: LandingPageContent = {
       {
         name: 'FAMILLE',
         description: 'Le projet familial ultime. Invitez tout le monde à participer pendant 2 ans.',
-        price: '199 €',
+        price: `${productFacts.plans.family.priceEur} €`,
         cta: { label: 'Acheter', href: 'https://app.life-story.ai/registrations/new?product=premium&locale=fr' },
       },
     ],
     rows: [
       {
         label: 'Livre imprimé',
-        tooltip: "Jusqu'à 350 pages en couleur",
-        values: ['❌ Pas de livre imprimé', '<strong>✅ 1 livre couleur inclus</strong>', '<strong>📚 5 livres couleur inclus</strong>'],
+        tooltip: `Jusqu'à ${productFacts.printedBookMaxColorPages} pages en couleur`,
+        values: [
+          '❌ Pas de livre imprimé',
+          `<strong>✅ ${productFacts.plans.author.includedBooks} livre couleur inclus</strong>`,
+          `<strong>📚 ${productFacts.plans.family.includedBooks} livres couleur inclus</strong>`,
+        ],
       },
       {
         label: 'Photos',
         tooltip: 'Photos et images en couleurs',
-        values: ['50 photos max.', '♾️ Photos illimitées', '♾️ Photos illimitées'],
+        values: ['♾️ Photos illimitées', '♾️ Photos illimitées', '♾️ Photos illimitées'],
       },
       {
         label: 'Livraison',
@@ -376,7 +381,11 @@ export const frContent: LandingPageContent = {
       {
         label: 'Participants',
         tooltip: "Le nombre d'auteurs ou d'interviewers qui auront accès à l'application",
-        values: ['Solo 1 auteur', '👥 <strong>Duo (vous + 1 invité)</strong>', "👨‍👩‍👧‍👦 <strong>Famille (jusqu'à 10)</strong>"],
+        values: [
+          `Solo ${productFacts.plans.starter.contributors} auteur`,
+          '👥 <strong>Duo (vous + 1 invité)</strong>',
+          `👨‍👩‍👧‍👦 <strong>Famille (jusqu'à ${productFacts.plans.family.contributors})</strong>`,
+        ],
       },
       {
         label: 'Biographe IA',
@@ -385,11 +394,15 @@ export const frContent: LandingPageContent = {
       },
       {
         label: "Durée d'accès",
-        values: ['6 mois', '1 an', '2 ans'],
+        values: [productFacts.plans.starter.access.fr, productFacts.plans.author.access.fr, productFacts.plans.family.access.fr],
       },
       {
         label: 'Livre supplémentaire',
-        values: ['59 € / livre', '39 € / livre', '<strong>29 € / livre</strong> 🔥'],
+        values: [
+          `${productFacts.plans.starter.extraBookEur} € / livre`,
+          `${productFacts.plans.author.extraBookEur} € / livre`,
+          `<strong>${productFacts.plans.family.extraBookEur} € / livre</strong> 🔥`,
+        ],
       },
       {
         label: 'Export numérique',
@@ -398,9 +411,9 @@ export const frContent: LandingPageContent = {
     ],
   },
   guarantee: {
-    title: '🏆 Garantie satisfait ou remboursé de 30 jours',
+    title: `🏆 Garantie satisfait ou remboursé de ${productFacts.refundDays} jours`,
     description:
-      "Si vous ou votre parent n'êtes pas satisfait, ou si le cadeau n'est finalement pas utilisé, vous êtes remboursé sans condition jusqu'à 30 jours après l'achat.",
+      `Si vous ou votre parent n'êtes pas satisfait, ou si le cadeau n'est finalement pas utilisé, vous êtes remboursé sans condition jusqu'à ${productFacts.refundDays} jours après l'achat.`,
   },
   examples: {
     title: 'Exemples de livres',
@@ -442,7 +455,7 @@ export const frContent: LandingPageContent = {
       },
       {
         links: [
-          { label: 'Trustpilot', href: 'https://fr.trustpilot.com/review/life-story.ai' },
+          { label: 'Trustpilot', href: productFacts.trustpilot.profileUrl },
           { label: 'Mentions légales', href: '/fr/mentions-legales' },
           { label: 'FAQ', href: '#faq' },
           { label: 'À propos de nous', href: '/fr/team' },

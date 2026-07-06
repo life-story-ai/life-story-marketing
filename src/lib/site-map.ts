@@ -1,5 +1,7 @@
 import { staticPageKeys } from '../content/static-pages';
 
+const rootStaticPageKeys = staticPageKeys.filter((page) => page !== 'mentions-legales');
+
 export function getCanonicalSitePaths() {
   return [
     '/',
@@ -17,7 +19,7 @@ export function getCanonicalSitePaths() {
     '/fr/impact',
     '/blog',
     '/fr/blog',
-    ...staticPageKeys.map((page) => `/${page}`),
+    ...rootStaticPageKeys.map((page) => `/${page}`),
     ...staticPageKeys.map((page) => `/fr/${page}`),
   ];
 }

@@ -1,13 +1,21 @@
 ---
 import LandingPage from '../components/LandingPage.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getLandingPageContent } from '../content/site';
+import { getLandingPageVariantContent } from '../content/site';
 
-const content = getLandingPageContent('en');
-const title = 'Write Your Autobiography with AI – Life Story AI';
-const description = 'Write your autobiography with the help of an AI biographer. Answer questions by voice or text, and receive a beautifully printed book of your life story in a few weeks.';
+const content = getLandingPageVariantContent('autobiography');
+const canonicalPath = '/autobiography';
 ---
 
-<BaseLayout locale="en" title={title} description={description} canonicalPath="/autobiography">
+<BaseLayout
+  locale="en"
+  title={content.meta.title}
+  description={content.meta.description}
+  canonicalPath={canonicalPath}
+  alternateLinks={[
+    { hreflang: 'en', href: canonicalPath },
+    { hreflang: 'x-default', href: canonicalPath },
+  ]}
+>
   <LandingPage content={content} />
 </BaseLayout>

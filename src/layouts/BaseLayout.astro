@@ -1,5 +1,6 @@
 ---
 import { imageManifest } from '../content/images';
+import { productFacts } from '../content/product-facts';
 import type { AlternateLink, Locale } from '../content/types';
 import { absoluteSiteUrl, localePath, withSitePath } from '../lib/i18n';
 import '../styles/umso.css';
@@ -42,8 +43,8 @@ const structuredDataItems = [
     applicationCategory: 'MultimediaApplication',
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '4.4',
-      ratingCount: '12',
+      ratingValue: productFacts.trustpilot.rating,
+      ratingCount: String(productFacts.trustpilot.reviewCount),
     },
   },
   ...(structuredData ? (Array.isArray(structuredData) ? structuredData : [structuredData]) : []),

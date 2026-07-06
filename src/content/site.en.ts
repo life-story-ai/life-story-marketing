@@ -1,4 +1,5 @@
 import type { LandingPageContent } from './types';
+import { productFacts } from './product-facts';
 import { footerSocials } from './site.shared';
 
 export const enContent: LandingPageContent = {
@@ -153,7 +154,7 @@ export const enContent: LandingPageContent = {
       {
         title: 'Birth Book',
         description:
-          "Capture your child's birth or early years in a beautiful book while the memories are still fresh. Add up to 40 photos.",
+          "Capture your child's birth or early years in a beautiful book while the memories are still fresh. Add unlimited photos.",
         image: 'bookBirthBook',
         alt: 'Birth book example',
       },
@@ -167,7 +168,7 @@ export const enContent: LandingPageContent = {
       {
         title: 'Travel Journal',
         description:
-          'Turn a meaningful trip into a book. Invite loved ones to help write during or after the journey and add up to 40 photos.',
+          'Turn a meaningful trip into a book. Invite loved ones to help write during or after the journey and add unlimited photos.',
         image: 'bookTravelBook',
         alt: 'Travel journal book example',
       },
@@ -220,7 +221,7 @@ export const enContent: LandingPageContent = {
       {
         icon: 'photo',
         title: 'Add photos to the chapters',
-        description: 'Add up to 40 photos in color or black and white.',
+        description: 'Add unlimited photos in color or black and white.',
       },
       {
         icon: 'edit',
@@ -244,33 +245,37 @@ export const enContent: LandingPageContent = {
       {
         name: 'STARTER',
         description: 'Secure your memories digitally. Print later.',
-        price: '$49',
+        price: `$${productFacts.plans.starter.priceUsd}`,
         cta: { label: 'Buy now', href: 'https://app.life-story.ai/registrations/new?product=digital&locale=en' },
       },
       {
         name: 'AUTHOR ⭐',
         description: 'Turn your memories into a beautiful printed book.',
-        price: '$99',
+        price: `$${productFacts.plans.author.priceUsd}`,
         featured: true,
         cta: { label: 'Buy now', href: 'https://app.life-story.ai/registrations/new?product=standard&locale=en', primary: true },
       },
       {
         name: 'FAMILY',
         description: 'The ultimate family project. Invite everyone to contribute for 2 years.',
-        price: '$199',
+        price: `$${productFacts.plans.family.priceUsd}`,
         cta: { label: 'Buy now', href: 'https://app.life-story.ai/registrations/new?product=premium&locale=en' },
       },
     ],
     rows: [
       {
         label: 'Printed book',
-        tooltip: 'Up to 350 color pages',
-        values: ['❌ No printed book', '<strong>✅ 1 color book included</strong>', '<strong>📚 5 color books included</strong>'],
+        tooltip: `Up to ${productFacts.printedBookMaxColorPages} color pages`,
+        values: [
+          '❌ No printed book',
+          `<strong>✅ ${productFacts.plans.author.includedBooks} color book included</strong>`,
+          `<strong>📚 ${productFacts.plans.family.includedBooks} color books included</strong>`,
+        ],
       },
       {
         label: 'Photos',
         tooltip: 'Photos and illustrations in color',
-        values: ['50 photos max.', '♾️ Unlimited photos', '♾️ Unlimited photos'],
+        values: ['♾️ Unlimited photos', '♾️ Unlimited photos', '♾️ Unlimited photos'],
       },
       {
         label: 'Shipping',
@@ -280,7 +285,11 @@ export const enContent: LandingPageContent = {
       {
         label: 'Participants',
         tooltip: 'The number of authors or interviewers who can access the app',
-        values: ['Solo, 1 author', '👥 <strong>Duo (you + 1 guest)</strong>', '<strong>👨‍👩‍👧‍👦 Family (up to 10)</strong>'],
+        values: [
+          `Solo, ${productFacts.plans.starter.contributors} author`,
+          '👥 <strong>Duo (you + 1 guest)</strong>',
+          `<strong>👨‍👩‍👧‍👦 Family (up to ${productFacts.plans.family.contributors})</strong>`,
+        ],
       },
       {
         label: 'AI biographer',
@@ -289,11 +298,15 @@ export const enContent: LandingPageContent = {
       },
       {
         label: 'Access duration',
-        values: ['6 months', '1 year', '2 years'],
+        values: [productFacts.plans.starter.access.en, productFacts.plans.author.access.en, productFacts.plans.family.access.en],
       },
       {
         label: 'Additional book',
-        values: ['$59 / book', '$39 / book', '<strong>$29 / book</strong> 🔥'],
+        values: [
+          `$${productFacts.plans.starter.extraBookUsd} / book`,
+          `$${productFacts.plans.author.extraBookUsd} / book`,
+          `<strong>$${productFacts.plans.family.extraBookUsd} / book</strong> 🔥`,
+        ],
       },
       {
         label: 'Digital export',
@@ -302,9 +315,9 @@ export const enContent: LandingPageContent = {
     ],
   },
   guarantee: {
-    title: '🏆 30-day money-back guarantee',
+    title: `🏆 ${productFacts.refundDays}-day money-back guarantee`,
     description:
-      'If you or your parent are not satisfied, or if the gift is never used, you can request a full refund within 30 days of purchase.',
+      `If you or your parent are not satisfied, or if the gift is never used, you can request a full refund within ${productFacts.refundDays} days of purchase.`,
   },
   examples: {
     title: 'Sample books',
@@ -336,7 +349,7 @@ export const enContent: LandingPageContent = {
       {
         question: 'What exactly am I buying?',
         answer:
-          'The final product is a real book of up to 250 pages, printed and shipped to you. You can choose the style, customize the cover, and edit or remove chapters as you wish. On the Starter plan, you buy the digital version only.',
+          `The final product is a real book of up to ${productFacts.printedBookMaxColorPages} pages, printed and shipped to you. You can choose the style, customize the cover, and edit or remove chapters as you wish. On the Starter plan, you buy the digital version only.`,
       },
       {
         question: 'Who is Lisa?',
@@ -369,7 +382,7 @@ export const enContent: LandingPageContent = {
         answer: "Yes. Lisa's guidance and questions are optional, so you can tell the story you want to tell.",
       },
       { question: 'Is there a limit to the number of questions?', answer: 'No. You can answer as many questions as you like.' },
-      { question: 'Is there a page limit for the book?', answer: 'Yes. The printed book is limited to a maximum of 250 pages.' },
+      { question: 'Is there a page limit for the book?', answer: `Yes. The printed book is limited to a maximum of ${productFacts.printedBookMaxColorPages} pages.` },
       { question: 'Can I answer more than one question per week?', answer: 'Yes. You can answer as many questions per week as you want.' },
       { question: 'Is there a limit to the number of photos?', answer: 'No.' },
       { question: 'Will the photos be printed in color?', answer: 'Yes.' },
@@ -377,7 +390,7 @@ export const enContent: LandingPageContent = {
       {
         question: 'What is your return policy?',
         answer:
-          'If you are not satisfied with your purchase, simply submit a refund request within 30 days of purchase. You will receive a full refund. We cannot refund books that have already been printed. For gifts, only the purchaser can request the refund.',
+          `If you are not satisfied with your purchase, simply submit a refund request within ${productFacts.refundDays} days of purchase. You will receive a full refund. We cannot refund books that have already been printed. For gifts, only the purchaser can request the refund.`,
       },
       { question: 'What is the format of the printed book?', answer: 'The printed book uses A5 format: 14.85 x 21 cm (or 5.8 x 8.3 inches).' },
       { question: 'Where do you deliver?', answer: 'We deliver worldwide.' },
@@ -406,7 +419,7 @@ export const enContent: LandingPageContent = {
       },
       {
         links: [
-          { label: 'Trustpilot', href: 'https://www.trustpilot.com/review/life-story.ai' },
+          { label: 'Trustpilot', href: productFacts.trustpilot.profileUrl },
           { label: 'FAQ', href: '#faq' },
           { label: 'About us', href: '/team' },
           { label: 'Vision', href: '/vision' },

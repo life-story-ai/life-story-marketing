@@ -1,13 +1,21 @@
 ---
 import LandingPage from '../components/LandingPage.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getLandingPageContent } from '../content/site';
+import { getLandingPageVariantContent } from '../content/site';
 
-const content = getLandingPageContent('en');
-const title = 'Create a Childhood Memory Book – Life Story AI';
-const description = "Capture your child's early years in a beautiful printed book. Record milestones, funny moments, and family memories with the help of an AI biographer.";
+const content = getLandingPageVariantContent('childhoodBook');
+const canonicalPath = '/childhood-book';
 ---
 
-<BaseLayout locale="en" title={title} description={description} canonicalPath="/childhood-book">
+<BaseLayout
+  locale="en"
+  title={content.meta.title}
+  description={content.meta.description}
+  canonicalPath={canonicalPath}
+  alternateLinks={[
+    { hreflang: 'en', href: canonicalPath },
+    { hreflang: 'x-default', href: canonicalPath },
+  ]}
+>
   <LandingPage content={content} />
 </BaseLayout>

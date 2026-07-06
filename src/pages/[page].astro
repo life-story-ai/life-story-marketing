@@ -3,7 +3,7 @@ import StaticPage from '../components/StaticPage.astro';
 import { getStaticPageContent, staticPageKeys } from '../content/static-pages';
 
 export function getStaticPaths() {
-  return staticPageKeys.map((page) => ({
+  return staticPageKeys.filter((page) => page !== 'mentions-legales').map((page) => ({
     params: { page },
     props: {
       content: getStaticPageContent('en', page),

@@ -23,6 +23,7 @@ interface Props {
 const { content, id = 'hero', centered = false } = Astro.props;
 const titleHtml = 'titleHtml' in content ? content.titleHtml : undefined;
 const plainTitle = 'title' in content ? content.title : '';
+const HeadingTag = id === 'final-cta' ? 'h2' : 'h1';
 ---
 
 <section id={id} class:list={['section', 'section--hero', 'section--noPadding', centered ? 'section--center' : 'section--left', 'dark']}>
@@ -31,9 +32,9 @@ const plainTitle = 'title' in content ? content.title : '';
       <div class="ft__wrapper" style="max-width:690px">
         <div class="ft__content">
           {titleHtml ? (
-            <h1 class="hero__title color-1 weight-title-h font-title" set:html={titleHtml}></h1>
+            <HeadingTag class="hero__title color-1 weight-title-h font-title" set:html={titleHtml}></HeadingTag>
           ) : (
-            <h1 class="hero__title color-1 weight-title-h font-title">{plainTitle}</h1>
+            <HeadingTag class="hero__title color-1 weight-title-h font-title">{plainTitle}</HeadingTag>
           )}
           <p class="hero__subtitle weight-text">{content.description}</p>
           <div class="ctas">

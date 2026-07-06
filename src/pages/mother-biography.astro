@@ -1,13 +1,21 @@
 ---
 import LandingPage from '../components/LandingPage.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getLandingPageContent } from '../content/site';
+import { getLandingPageVariantContent } from '../content/site';
 
-const content = getLandingPageContent('en');
-const title = "Write Your Mother's Biography – Preserve Her Life Story – Life Story AI";
-const description = "Capture your mother's memories and life story in a beautiful printed book. Guide her through the process with an AI biographer — a meaningful gift she'll treasure forever.";
+const content = getLandingPageVariantContent('motherBiography');
+const canonicalPath = '/mother-biography';
 ---
 
-<BaseLayout locale="en" title={title} description={description} canonicalPath="/mother-biography">
+<BaseLayout
+  locale="en"
+  title={content.meta.title}
+  description={content.meta.description}
+  canonicalPath={canonicalPath}
+  alternateLinks={[
+    { hreflang: 'en', href: canonicalPath },
+    { hreflang: 'x-default', href: canonicalPath },
+  ]}
+>
   <LandingPage content={content} />
 </BaseLayout>
