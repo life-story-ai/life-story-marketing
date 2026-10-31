@@ -181,7 +181,7 @@ const staticPages: Record<Locale, Record<StaticPageKey, StaticPageContent>> = {
             <h3>9. Jurisdiction</h3>
             <p>Any dispute related to these Terms or the Services will be governed by the laws of France.</p>
             <h3>10. Contact Us</h3>
-            <p>For any questions regarding these Terms, please contact us at <a href="mailto:hello@life-story.ai">hello@life-story.ai</a>.</p>
+            <p>For any questions regarding these Terms, please contact us at <a href="mailto:florian.noirbent@gmail.com">florian.noirbent@gmail.com</a>.</p>
           `,
         },
       ],
@@ -225,7 +225,7 @@ const staticPages: Record<Locale, Record<StaticPageKey, StaticPageContent>> = {
             <h3>9. Changes to This Policy</h3>
             <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
             <h3>10. Contact Us</h3>
-            <p>For any questions about this Privacy Policy, please contact us at <a href="mailto:hello@life-story.ai">hello@life-story.ai</a>.</p>
+            <p>For any questions about this Privacy Policy, please contact us at <a href="mailto:florian.noirbent@gmail.com">florian.noirbent@gmail.com</a>.</p>
           `,
         },
       ],
@@ -253,7 +253,7 @@ const staticPages: Record<Locale, Record<StaticPageKey, StaticPageContent>> = {
               <li>Website: <a href="/">Life Story AI</a></li>
             </ul>
             <h3>Contact</h3>
-            <p>Contact person: Florian Noirbent<br>Email address: <a href="mailto:hello@life-story.ai">hello@life-story.ai</a></p>
+            <p>Contact person: Florian Noirbent<br>Email address: <a href="mailto:florian.noirbent@gmail.com">florian.noirbent@gmail.com</a></p>
             <h3>Hosting</h3>
             <p>Heroku<br>415 Mission Street<br>Suite 300<br>San Francisco, CA<br>94105</p>
             <h3>Other</h3>
@@ -326,7 +326,7 @@ const staticPages: Record<Locale, Record<StaticPageKey, StaticPageContent>> = {
             <h3>9. Juridiction</h3>
             <p>Tout litige relatif Ã  ces conditions ou aux Services sera rÃ©gi par le droit franÃ§ais.</p>
             <h3>10. Contact</h3>
-            <p>Pour toute question concernant ces conditions, vous pouvez nous contacter Ã  <a href="mailto:hello@life-story.ai">hello@life-story.ai</a>.</p>
+            <p>Pour toute question concernant ces conditions, vous pouvez nous contacter Ã  <a href="mailto:florian.noirbent@gmail.com">florian.noirbent@gmail.com</a>.</p>
           `,
         },
       ],
@@ -370,7 +370,7 @@ const staticPages: Record<Locale, Record<StaticPageKey, StaticPageContent>> = {
             <h3>9. Modifications de cette politique</h3>
             <p>Nous pouvons mettre Ã  jour cette Politique de ConfidentialitÃ© de temps Ã  autre. Nous vous informerons de tout changement en publiant la nouvelle version sur cette page.</p>
             <h3>10. Contact</h3>
-            <p>Pour toute question relative Ã  cette Politique de ConfidentialitÃ©, vous pouvez nous Ã©crire Ã  <a href="mailto:hello@life-story.ai">hello@life-story.ai</a>.</p>
+            <p>Pour toute question relative Ã  cette Politique de ConfidentialitÃ©, vous pouvez nous Ã©crire Ã  <a href="mailto:florian.noirbent@gmail.com">florian.noirbent@gmail.com</a>.</p>
           `,
         },
       ],
@@ -398,7 +398,7 @@ const staticPages: Record<Locale, Record<StaticPageKey, StaticPageContent>> = {
               <li>Site Web : <a href="/fr">Life Story AI</a></li>
             </ul>
             <h3>Contact</h3>
-            <p>Personne Ã  contacter : Florian Noirbent<br>Adresse e-mail : <a href="mailto:hello@life-story.ai">hello@life-story.ai</a></p>
+            <p>Personne Ã  contacter : Florian Noirbent<br>Adresse e-mail : <a href="mailto:florian.noirbent@gmail.com">florian.noirbent@gmail.com</a></p>
             <h3>HÃ©bergement</h3>
             <p>Heroku<br>415 Mission Street<br>Suite 300<br>San Francisco, CA<br>94105</p>
             <h3>Autres</h3>

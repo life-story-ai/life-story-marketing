@@ -403,7 +403,7 @@ export const enContent: LandingPageContent = {
     ],
   },
   footer: {
-    lines: ['© 2026 Life Story AI', 'Florian Noirbent, sole proprietor - 5 bis rue des Perrais, 41100 Naveil, France', 'hello@life-story.ai', 'Made in France'],
+    lines: ['© 2026 Life Story AI', 'Florian Noirbent, sole proprietor - 5 bis rue des Perrais, 41100 Naveil, France', 'florian.noirbent@gmail.com', 'Made in France'],
     socialLinks: [...footerSocials],
     currentLanguage: 'English',
     alternateLanguage: { label: 'Français', href: '/fr' },
