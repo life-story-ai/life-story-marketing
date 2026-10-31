@@ -155,11 +155,11 @@ const staticPages: Record<Locale, Record<StaticPageKey, StaticPageContent>> = {
       seoTitle: 'Terms of Service | Life Story AI',
       seoDescription: 'Read the terms of service governing the use of Life Story AI products and services.',
       heroTitle: 'Terms of Service',
-      heroSubtitle: 'Last updated: April 22, 2023',
+      heroSubtitle: 'Last updated: October 31, 2026',
       sections: [
         {
           html: `
-            <p>Thanks for using our products and services. The Services are provided by DON QUIJOTE INNOVATION CONSULTING, located at 1 rue de la Bonne Dame, 45190 Messas, France.</p>
+            <p>Thanks for using our products and services. The Services are provided by Florian Noirbent, sole proprietor (entrepreneur individuel), located at 5 bis rue des Perrais, 41100 Naveil, France.</p>
             <h3>1. Acceptance of Terms</h3>
             <p>By using the services of Life Story AI, you agree to abide by these terms. Please read them carefully.</p>
             <h3>2. Use of Our Services</h3>
@@ -196,11 +196,11 @@ const staticPages: Record<Locale, Record<StaticPageKey, StaticPageContent>> = {
       seoTitle: 'Privacy Policy | Life Story AI',
       seoDescription: 'Read how Life Story AI collects, uses, stores, and protects personal information.',
       heroTitle: 'Privacy Policy',
-      heroSubtitle: 'Last modified: August 21, 2023',
+      heroSubtitle: 'Last modified: October 31, 2026',
       sections: [
         {
           html: `
-            <p>The Services are provided by DON QUIJOTE INNOVATION CONSULTING, located at 1 rue de la Bonne Dame, 45190 Messas, France.</p>
+            <p>The Services are provided by Florian Noirbent, sole proprietor (entrepreneur individuel), located at 5 bis rue des Perrais, 41100 Naveil, France.</p>
             <h3>1. Introduction</h3>
             <p>At Life Story AI, we respect your privacy and are committed to protecting it. This Privacy Policy outlines our practices concerning the collection, use, and sharing of your personal information. By visiting our website, you accept the practices described in this Policy.</p>
             <h3>2. Information We Collect</h3>
@@ -245,13 +245,15 @@ const staticPages: Record<Locale, Record<StaticPageKey, StaticPageContent>> = {
           html: `
             <h3>Publisher and Website Identification</h3>
             <ul>
-              <li>Company name: DON QUIJOTE INNOVATION</li>
-              <li>SIRET: 89148860300020</li>
-              <li>Address: 6 allÃ©e des Canards, 77250 Moret-Loing-et-Orvanne, France</li>
+              <li>Publisher: Florian Noirbent, sole proprietor (entrepreneur individuel)</li>
+              <li>SIREN: 990 168 957</li>
+              <li>SIRET: 990 168 957 00019</li>
+              <li>Address: 5 bis rue des Perrais, 41100 Naveil, France</li>
+              <li>VAT: VAT not applicable, article 293 B of the French General Tax Code</li>
               <li>Website: <a href="/">Life Story AI</a></li>
             </ul>
             <h3>Contact</h3>
-            <p>Contact person: ChaÃ¯b Martinez<br>Email address: <a href="mailto:chaib@life-story.ai">chaib@life-story.ai</a></p>
+            <p>Contact person: Florian Noirbent<br>Email address: <a href="mailto:hello@life-story.ai">hello@life-story.ai</a></p>
             <h3>Hosting</h3>
             <p>Heroku<br>415 Mission Street<br>Suite 300<br>San Francisco, CA<br>94105</p>
             <h3>Other</h3>
@@ -298,11 +300,11 @@ const staticPages: Record<Locale, Record<StaticPageKey, StaticPageContent>> = {
       seoTitle: 'Conditions dâ€™utilisation | Life Story AI',
       seoDescription: 'Consultez les conditions dâ€™utilisation applicables aux produits et services Life Story AI.',
       heroTitle: 'Conditions dâ€™utilisation',
-      heroSubtitle: 'DerniÃ¨re mise Ã  jour : 22 avril 2023',
+      heroSubtitle: 'DerniÃ¨re mise Ã  jour : 31 octobre 2026',
       sections: [
         {
           html: `
-            <p>Merci dâ€™utiliser nos produits et services. Les Services sont fournis par DON QUIJOTE INNOVATION CONSULTING, situÃ© au 1 rue de la Bonne Dame, 45190 Messas, France.</p>
+            <p>Merci dâ€™utiliser nos produits et services. Les Services sont fournis par Florian Noirbent, entrepreneur individuel, situÃ© au 5 bis rue des Perrais, 41100 Naveil, France.</p>
             <h3>1. Acceptation des conditions</h3>
             <p>En utilisant les services de Life Story AI, vous acceptez de respecter les prÃ©sentes conditions. Merci de les lire attentivement.</p>
             <h3>2. Utilisation de nos services</h3>
@@ -339,13 +341,13 @@ const staticPages: Record<Locale, Record<StaticPageKey, StaticPageContent>> = {
       seoTitle: 'Politique de confidentialitÃ© | Life Story AI',
       seoDescription: 'Consultez la maniÃ¨re dont Life Story AI collecte, utilise, conserve et protÃ¨ge les donnÃ©es personnelles.',
       heroTitle: 'Politique de confidentialitÃ©',
-      heroSubtitle: 'DerniÃ¨re modification : 21 aoÃ»t 2023',
+      heroSubtitle: 'DerniÃ¨re modification : 31 octobre 2026',
       sections: [
         {
           html: `
             <p>Chez Life Story AI, nous respectons votre vie privÃ©e et nous nous engageons Ã  la protÃ©ger. Cette Politique de ConfidentialitÃ© dÃ©crit nos pratiques concernant la collecte, lâ€™utilisation et le partage de vos informations personnelles. En visitant notre site web, vous acceptez les pratiques dÃ©crites dans cette Politique.</p>
             <h3>1. Introduction</h3>
-            <p>Les Services sont fournis par DON QUIJOTE INNOVATION CONSULTING, situÃ© au 1 rue de la Bonne Dame, 45190 Messas, France.</p>
+            <p>Les Services sont fournis par Florian Noirbent, entrepreneur individuel, situÃ© au 5 bis rue des Perrais, 41100 Naveil, France.</p>
             <h3>2. Informations que nous collectons</h3>
             <p><strong>Informations fournies directement :</strong> lorsque vous utilisez nos services, comme la crÃ©ation dâ€™un compte ou lâ€™achat de notre produit, nous pouvons vous demander des informations personnelles telles que votre nom, votre adresse e-mail et vos dÃ©tails de paiement.</p>
             <p><strong>Informations collectÃ©es automatiquement :</strong> nous collectons des informations sur la faÃ§on dont vous utilisez nos services, y compris le temps passÃ© sur notre site, les pages que vous visitez et les liens sur lesquels vous cliquez.</p>
@@ -388,13 +390,15 @@ const staticPages: Record<Locale, Record<StaticPageKey, StaticPageContent>> = {
           html: `
             <h3>Identification de lâ€™Ã‰diteur et du Site Web</h3>
             <ul>
-              <li>Nom de lâ€™entreprise : DON QUIJOTE INNOVATION</li>
-              <li>SIRET : 89148860300020</li>
-              <li>Adresse : 6 allÃ©e des Canards, 77250 Moret-Loing-et-Orvanne, France</li>
+              <li>Éditeur : Florian Noirbent, entrepreneur individuel</li>
+              <li>SIREN : 990 168 957</li>
+              <li>SIRET : 990 168 957 00019</li>
+              <li>Adresse : 5 bis rue des Perrais, 41100 Naveil, France</li>
+              <li>TVA : TVA non applicable, article 293 B du CGI</li>
               <li>Site Web : <a href="/fr">Life Story AI</a></li>
             </ul>
             <h3>Contact</h3>
-            <p>Personne Ã  contacter : ChaÃ¯b Martinez<br>Adresse e-mail : <a href="mailto:chaib@life-story.ai">chaib@life-story.ai</a></p>
+            <p>Personne Ã  contacter : Florian Noirbent<br>Adresse e-mail : <a href="mailto:hello@life-story.ai">hello@life-story.ai</a></p>
             <h3>HÃ©bergement</h3>
             <p>Heroku<br>415 Mission Street<br>Suite 300<br>San Francisco, CA<br>94105</p>
             <h3>Autres</h3>

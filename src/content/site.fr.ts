@@ -439,7 +439,7 @@ export const frContent: LandingPageContent = {
     items: [...frFaq],
   },
   footer: {
-    lines: ['© 2025 Life Story AI', "23 rue d'Essling, 92400 Courbevoie", 'hello@life-story.ai', 'Fabriqué en France'],
+    lines: ['© 2026 Life Story AI', 'Florian Noirbent, entrepreneur individuel - 5 bis rue des Perrais, 41100 Naveil', 'hello@life-story.ai', 'Fabriqué en France'],
     socialLinks: [...footerSocials],
     currentLanguage: 'Français',
     alternateLanguage: { label: 'English', href: '/' },
